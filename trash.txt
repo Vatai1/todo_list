@@ -1,0 +1,29 @@
+    $sql="INSERT INTO users (login, name, email, password) VALUES (:login,:name,:email,:password)";
+    $sth = $conn->prepare($sql);
+    $sth->execute(array(
+        ':login' => $_POST['login'],
+        ':name' => $_POST['name'],
+        ':email' => $_POST['email'],
+        ':password' => $_POST['password']
+    ));
+
+
+    function checklogin($login){
+        $sql = "SELECT * FROM users WHERE login=$login";
+        if($login == mysqlQuery($sql));
+    }
+
+
+    if(!$response){
+        die ('FATAL ERROR, check your sql query');
+    }else{
+        if(is_array($response)) {
+            var_dump($response);
+            $response = implode('',$query->fetch(PDO::FETCH_ASSOC));
+            return $result;
+        }else{
+            $result = $response;
+            return $result;
+        }
+
+    }
