@@ -14,18 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="154d2cf3-3e12-4035-82c7-9ead44bf6a2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8d10e105-b9aa-4afc-9a03-5df209a32ca8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d10e105-b9aa-4afc-9a03-5df209a32ca8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8d10e105-b9aa-4afc-9a03-5df209a32ca8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trash.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,8 @@
       <workItem from="1601261625192" duration="469000" />
       <workItem from="1601262206498" duration="71000" />
       <workItem from="1601262444016" duration="4130000" />
-      <workItem from="1601266714941" duration="2932000" />
+      <workItem from="1601266714941" duration="3644000" />
+      <workItem from="1601283372474" duration="10506000" />
     </task>
     <servers />
   </component>
@@ -137,22 +132,26 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="711" y="423" width="487" height="268" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.36.1920.1044@0.36.1920.1044" timestamp="1601260951464" />
-    <state width="844" height="2" key="GridCell.Tab.0.bottom" timestamp="1601248829438">
+    <state width="1291" height="261" key="GridCell.Tab.0.bottom" timestamp="1601306281071">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="844" height="2" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1601248829438" />
-    <state width="844" height="2" key="GridCell.Tab.0.center" timestamp="1601248829438">
+    <state width="1291" height="261" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1601306281071" />
+    <state width="1291" height="261" key="GridCell.Tab.0.center" timestamp="1601306281070">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="844" height="2" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1601248829438" />
-    <state width="844" height="2" key="GridCell.Tab.0.left" timestamp="1601248829438">
+    <state width="1291" height="261" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1601306281070" />
+    <state width="1291" height="261" key="GridCell.Tab.0.left" timestamp="1601306281070">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="844" height="2" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1601248829438" />
-    <state width="844" height="2" key="GridCell.Tab.0.right" timestamp="1601248829438">
+    <state width="1291" height="261" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1601306281070" />
+    <state width="1291" height="261" key="GridCell.Tab.0.right" timestamp="1601306281071">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="844" height="2" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1601248829438" />
+    <state width="1291" height="261" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1601306281071" />
+    <state x="68" y="304" key="IDE.errors.dialog" timestamp="1601269646117">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="68" y="304" key="IDE.errors.dialog/0.36.1920.1044@0.36.1920.1044" timestamp="1601269646117" />
     <state x="764" y="274" key="NewPhpClassDialog" timestamp="1601192554614">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
@@ -165,13 +164,17 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="429" y="237" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1601262273082" />
-    <state x="658" y="123" width="1642" height="957" key="dock-window-1" timestamp="1601220041804">
+    <state x="482" y="427" width="1413" height="697" key="dock-window-1" timestamp="1601305975117">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="658" y="123" width="1642" height="957" key="dock-window-1/0.36.1920.1044@0.36.1920.1044" timestamp="1601220041804" />
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1601249898308">
+    <state x="482" y="427" width="1413" height="697" key="dock-window-1/0.36.1920.1044@0.36.1920.1044" timestamp="1601305975117" />
+    <state x="960" y="36" width="960" height="1044" key="dock-window-2" timestamp="1601304158838">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1601249898308" />
+    <state x="960" y="36" width="960" height="1044" key="dock-window-2/0.36.1920.1044@0.36.1920.1044" timestamp="1601304158838" />
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1601304558719">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1601304558719" />
   </component>
 </project>

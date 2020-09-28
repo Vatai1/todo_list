@@ -3,7 +3,7 @@ require_once 'functions.php';
 if(isset($_POST['auth'])){
     $password = $_POST['password'];
     $login = $_POST['login'];
-    authUser($login,$password);
+    if(!authUser($login,$password)) echo 'НЕВЕРНЫЙ ПАРОЛЬ!';
 }
 
 
@@ -13,7 +13,7 @@ if(isset($_POST['auth'])){
 
 <form method="post">
     Ваш логин или email адрес<input  name='login'type="text" required>
-    Ваш пароль <input  name='email'type="password" required>
+    Ваш пароль <input  name='password'type="password" required>
     <input name="auth" type="submit" required>
     
     

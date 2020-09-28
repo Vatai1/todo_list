@@ -10,12 +10,15 @@ echo '<pre>';
 
 echo '-------------------- <br>';
 
-$password = 31232312333;
-$password = hashPass($password);
-var_dump($password);
+$password = '123';
+
+$login = 'vatai';
+
+$email = 'a4@g323mail.com';
 
 
 
+var_dump(checkEmail($email));
 
 
 echo '</pre>';

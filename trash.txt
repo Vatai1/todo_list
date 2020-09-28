@@ -27,3 +27,16 @@
         }
 
     }
+
+
+    function checkPass($login,$password){
+        global $conn;
+        $password = hashPass($password);
+        $opt = [':login' => $login, ':password' => $password];
+        $sql = "SELECT login, password FROM users WHERE login=':login' AND password=':password'";
+        $query = $conn->prepare($sql);
+        $query = $query->execute($opt);
+        $user = $query->fetch(PDO::FETCH_OBJ);
+        var_dump($user);
+
+    }
