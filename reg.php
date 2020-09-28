@@ -2,7 +2,7 @@
 require_once 'functions.php';
 
 //Начало регистрации пользователя
-if($_POST['register']) {
+if(isset($_POST['register'])) {
 
     $login    = $_POST['login'];
     $name     = $_POST['name'];

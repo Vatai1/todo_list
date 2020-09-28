@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-
+session_start();
 
 //connect
 $dsn = "$driver:host=$host;dbname=$dbname";//Don't touch!!!
@@ -28,7 +28,9 @@ function regUser($login,$name,$email,$password){
         $sql = 'INSERT INTO users(login, name, email, password) VALUES(:login, :name, :email, :password)';
         $query = $conn->prepare($sql);
         $query->execute($params);
-        echo 'true';
+        $_SESSION['login'] = $login;
+        header('Location: cabinet.php');
+
     }else{
         Echo 'Уже существует аккаунт с таким логином или почтой';
     }
@@ -37,7 +39,7 @@ function hashPass($password){
     return password_hash($password,PASSWORD_BCRYPT);
 }
 
-function auth($login,$password){
+function authUser($login,$password){
     global $conn;
     if (checkLogin($login) || checkEmail($login)){
         $sql = "SELECT password FROM users WHERE password=':password'";
@@ -46,6 +48,7 @@ function auth($login,$password){
         $response = $query->fetchColumn(0);
         hashPass($response);
         if($password == $response){
+            $_SESSION['login'] = $login;
             header('Location: cabinet.php');
             return true;
         }
@@ -84,6 +87,15 @@ function checkPass(string $passwd){
     if($passwd !== $result){
         return true;
     }else return false;
+}
+
+function destroySession(){
+        $_SESSION = [];
+        if(isset($_COOKIE[session_name()])){
+            setcookie(session_name(), '',time() - 3600, '/');
+        }
+        session_destroy();
+        header('Location: index.php');
 }
 
 

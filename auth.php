@@ -1,9 +1,9 @@
 <?php
 require_once 'functions.php';
-if($_POST['auth']){
+if(isset($_POST['auth'])){
     $password = $_POST['password'];
     $login = $_POST['login'];
-    auth($login,$password);
+    authUser($login,$password);
 }
 
 
